@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Source Css -->
+    <link rel="stylesheet" href="main.css" />
+    <title>Sprout Foods | Sign Up</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Modernizr JS -->
+    <script src="../project1/js/modernizr.custom.05819.js"></script>
+    <!-- Font Awesome  -->
+    <script
+      src="https://kit.fontawesome.com/ea48530035.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="contact-page" class="container">
+    <!-- ******************************** Begin Navigation Menu ******************************** -->
+    <header>
+      <span class="logo">sprout.</span>
+
+      <nav class="navbar navbar--shop">
+        <ul class="navbar--links">
+          <li><a href="index.html">Homepage</a></li>
+
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="shop.html">Shop Now</a></li>
+          <li><a href="sign-in.html">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ******************************** End Navigation Menu ******************************** -->
+    <!-- ******************************** Begin Contact Form ******************************** -->
+
+    <form id="form" class="form-container">
+      <h1>Sign Up</h1>
+      <div id="error-message"></div>
+      <div class="field-name">
+        <i class="fas fa-user"></i>
+        <!-- 2 inputs that accept text -->
+        <input id="firstName" type="text" placeholder="First Name" />
+        <input id="lastName" type="text" placeholder="Last Name" />
+      </div>
+
+      <div class="field-phone">
+        <i class="fas fa-mobile"></i>
+        <!-- 2 inputs that accept a number -->
+        <input id="phoneNumber" type="number" placeholder="Phone Number" />
+        <input
+          id="confirmPhoneNumber"
+          type="number"
+          placeholder="Confirm Phone Number"
+        />
+      </div>
+
+      <div class="field-email">
+        <i class="fas fa-envelope"></i>
+        <input id="email" type="email" placeholder="Email" />
+      </div>
+
+      <div class="field-password">
+        <i class="fas fa-key"></i>
+        <input id="password" type="password" placeholder="Password" />
+      </div>
+
+      <!-- 1 submit + 1 reset -->
+      <div>
+        <input type="submit" id="submitBtn" class="primary-btn" />
+        <input type="reset" class="primary-btn" />
+      </div>
+    </form>
+    <!-- ******************************** End Contact Form ******************************** -->
+    <!-- ******************************** Begin Footer ******************************** -->
+    <footer class="footer footer--homepage">
+      <a
+        href="http://validator.w3.org/check?uri=referer"
+        title="HTML5 Validation"
+        >HTML5 Validation</a
+      >
+      <a href="../home.htm" class="homepage"> -- Back to Homepage --</a>
+    </footer>
+    <!-- ******************************** End Footer ******************************** -->
+    <!-- Source JS -->
+    <script src="./js/form.js"></script>
+  </body>
+</html>

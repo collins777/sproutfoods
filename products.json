@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Pesto Ravioli",
+        "price": 10.99,
+        "image": {
+          "fields": { "file": { "url": "./images/product-meal1.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Vegan Flatbread",
+        "price": 12.99,
+        "image": {
+          "fields": { "file": { "url": "./images/product-meal2.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Vegan Salad",
+        "price": 10.99,
+        "image": {
+          "fields": { "file": { "url": "./images/product-meal5.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "French Perogis",
+        "price": 7.99,
+        "image": {
+          "fields": { "file": { "url": "./images/product-meal6.jpeg" } }
+        }
+      }
+    }
+  ]
+}
